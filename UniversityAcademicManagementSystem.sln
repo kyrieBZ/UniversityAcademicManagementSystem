@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityAcademicManagementSystem", "UniversityAcademicManagementSystem.csproj", "{55650726-4031-44BC-B44B-A5CE6042EA0F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "教务管理", "..\教务管理\教务管理.vdproj", "{FFD791B8-949D-4C18-AF0E-DF19BF476934}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55650726-4031-44BC-B44B-A5CE6042EA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55650726-4031-44BC-B44B-A5CE6042EA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55650726-4031-44BC-B44B-A5CE6042EA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55650726-4031-44BC-B44B-A5CE6042EA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD791B8-949D-4C18-AF0E-DF19BF476934}.Debug|Any CPU.ActiveCfg = Debug
+		{FFD791B8-949D-4C18-AF0E-DF19BF476934}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37D8120E-6506-42C8-A08A-8D1F914841CB}
+	EndGlobalSection
+EndGlobal
