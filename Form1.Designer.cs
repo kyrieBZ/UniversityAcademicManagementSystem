@@ -40,6 +40,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label_VerificationCode = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -95,7 +98,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("华文中宋", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.radioButton1.Location = new System.Drawing.Point(115, 294);
+            this.radioButton1.Location = new System.Drawing.Point(124, 355);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(98, 28);
             this.radioButton1.TabIndex = 5;
@@ -107,7 +110,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("华文中宋", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.radioButton2.Location = new System.Drawing.Point(321, 294);
+            this.radioButton2.Location = new System.Drawing.Point(330, 355);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(77, 28);
             this.radioButton2.TabIndex = 6;
@@ -119,7 +122,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("华文中宋", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.radioButton3.Location = new System.Drawing.Point(526, 294);
+            this.radioButton3.Location = new System.Drawing.Point(535, 355);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(77, 28);
             this.radioButton3.TabIndex = 7;
@@ -130,7 +133,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Location = new System.Drawing.Point(200, 370);
+            this.button1.Location = new System.Drawing.Point(209, 431);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 53);
             this.button1.TabIndex = 8;
@@ -140,7 +143,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(440, 370);
+            this.button2.Location = new System.Drawing.Point(449, 431);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(108, 53);
             this.button2.TabIndex = 9;
@@ -170,6 +173,33 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(653, 268);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 21);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "验证码";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label_VerificationCode
+            // 
+            this.label_VerificationCode.AutoSize = true;
+            this.label_VerificationCode.Font = new System.Drawing.Font("华文中宋", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_VerificationCode.Location = new System.Drawing.Point(154, 275);
+            this.label_VerificationCode.Name = "label_VerificationCode";
+            this.label_VerificationCode.Size = new System.Drawing.Size(94, 24);
+            this.label_VerificationCode.TabIndex = 13;
+            this.label_VerificationCode.Text = "验证码：";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(304, 268);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(163, 31);
+            this.textBox3.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AcceptButton = this.button1;
@@ -177,7 +207,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::UniversityAcademicManagementSystem.Properties.Resources.jinshan;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(813, 526);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label_VerificationCode);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -215,6 +248,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label_VerificationCode;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 

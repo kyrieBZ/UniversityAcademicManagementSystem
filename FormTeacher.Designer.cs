@@ -79,7 +79,7 @@
             this.反馈到管理员ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(942, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(942, 36);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -91,34 +91,34 @@
             this.删除课程ToolStripMenuItem,
             this.授课信息ToolStripMenuItem});
             this.课程信息管理ToolStripMenuItem.Name = "课程信息管理ToolStripMenuItem";
-            this.课程信息管理ToolStripMenuItem.Size = new System.Drawing.Size(156, 34);
+            this.课程信息管理ToolStripMenuItem.Size = new System.Drawing.Size(156, 32);
             this.课程信息管理ToolStripMenuItem.Text = "课程信息管理";
             // 
             // 添加课程ToolStripMenuItem
             // 
             this.添加课程ToolStripMenuItem.Name = "添加课程ToolStripMenuItem";
-            this.添加课程ToolStripMenuItem.Size = new System.Drawing.Size(255, 40);
+            this.添加课程ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.添加课程ToolStripMenuItem.Text = "添加课程";
             this.添加课程ToolStripMenuItem.Click += new System.EventHandler(this.添加课程ToolStripMenuItem_Click);
             // 
             // 修改课程信息ToolStripMenuItem
             // 
             this.修改课程信息ToolStripMenuItem.Name = "修改课程信息ToolStripMenuItem";
-            this.修改课程信息ToolStripMenuItem.Size = new System.Drawing.Size(255, 40);
+            this.修改课程信息ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.修改课程信息ToolStripMenuItem.Text = "修改课程信息";
             this.修改课程信息ToolStripMenuItem.Click += new System.EventHandler(this.修改课程信息ToolStripMenuItem_Click);
             // 
             // 删除课程ToolStripMenuItem
             // 
             this.删除课程ToolStripMenuItem.Name = "删除课程ToolStripMenuItem";
-            this.删除课程ToolStripMenuItem.Size = new System.Drawing.Size(255, 40);
+            this.删除课程ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.删除课程ToolStripMenuItem.Text = "删除课程";
             this.删除课程ToolStripMenuItem.Click += new System.EventHandler(this.删除课程ToolStripMenuItem_Click);
             // 
             // 授课信息ToolStripMenuItem
             // 
             this.授课信息ToolStripMenuItem.Name = "授课信息ToolStripMenuItem";
-            this.授课信息ToolStripMenuItem.Size = new System.Drawing.Size(255, 40);
+            this.授课信息ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.授课信息ToolStripMenuItem.Text = "授课信息";
             this.授课信息ToolStripMenuItem.Click += new System.EventHandler(this.授课信息ToolStripMenuItem_Click);
             // 
@@ -129,27 +129,27 @@
             this.修改学生信息ToolStripMenuItem,
             this.删除学生ToolStripMenuItem});
             this.学生信息管理ToolStripMenuItem.Name = "学生信息管理ToolStripMenuItem";
-            this.学生信息管理ToolStripMenuItem.Size = new System.Drawing.Size(156, 34);
+            this.学生信息管理ToolStripMenuItem.Size = new System.Drawing.Size(156, 32);
             this.学生信息管理ToolStripMenuItem.Text = "学生信息管理";
             // 
             // 添加学生ToolStripMenuItem
             // 
             this.添加学生ToolStripMenuItem.Name = "添加学生ToolStripMenuItem";
-            this.添加学生ToolStripMenuItem.Size = new System.Drawing.Size(255, 40);
+            this.添加学生ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.添加学生ToolStripMenuItem.Text = "添加学生";
             this.添加学生ToolStripMenuItem.Click += new System.EventHandler(this.添加学生ToolStripMenuItem_Click);
             // 
             // 修改学生信息ToolStripMenuItem
             // 
             this.修改学生信息ToolStripMenuItem.Name = "修改学生信息ToolStripMenuItem";
-            this.修改学生信息ToolStripMenuItem.Size = new System.Drawing.Size(255, 40);
+            this.修改学生信息ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.修改学生信息ToolStripMenuItem.Text = "修改学生信息";
             this.修改学生信息ToolStripMenuItem.Click += new System.EventHandler(this.修改学生信息ToolStripMenuItem_Click);
             // 
             // 删除学生ToolStripMenuItem
             // 
             this.删除学生ToolStripMenuItem.Name = "删除学生ToolStripMenuItem";
-            this.删除学生ToolStripMenuItem.Size = new System.Drawing.Size(255, 40);
+            this.删除学生ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.删除学生ToolStripMenuItem.Text = "删除学生";
             this.删除学生ToolStripMenuItem.Click += new System.EventHandler(this.删除学生ToolStripMenuItem_Click);
             // 
@@ -158,20 +158,20 @@
             this.成绩管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.设置课程成绩ToolStripMenuItem});
             this.成绩管理ToolStripMenuItem.Name = "成绩管理ToolStripMenuItem";
-            this.成绩管理ToolStripMenuItem.Size = new System.Drawing.Size(114, 34);
+            this.成绩管理ToolStripMenuItem.Size = new System.Drawing.Size(114, 32);
             this.成绩管理ToolStripMenuItem.Text = "成绩管理";
             // 
             // 设置课程成绩ToolStripMenuItem
             // 
             this.设置课程成绩ToolStripMenuItem.Name = "设置课程成绩ToolStripMenuItem";
-            this.设置课程成绩ToolStripMenuItem.Size = new System.Drawing.Size(255, 40);
+            this.设置课程成绩ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.设置课程成绩ToolStripMenuItem.Text = "设置课程成绩";
             this.设置课程成绩ToolStripMenuItem.Click += new System.EventHandler(this.设置课程成绩ToolStripMenuItem_Click);
             // 
             // 反馈到管理员ToolStripMenuItem
             // 
             this.反馈到管理员ToolStripMenuItem.Name = "反馈到管理员ToolStripMenuItem";
-            this.反馈到管理员ToolStripMenuItem.Size = new System.Drawing.Size(156, 34);
+            this.反馈到管理员ToolStripMenuItem.Size = new System.Drawing.Size(156, 32);
             this.反馈到管理员ToolStripMenuItem.Text = "反馈到管理员";
             this.反馈到管理员ToolStripMenuItem.Click += new System.EventHandler(this.反馈到管理员ToolStripMenuItem_Click);
             // 
@@ -312,9 +312,9 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox1.Location = new System.Drawing.Point(645, 42);
+            this.groupBox1.Location = new System.Drawing.Point(645, 36);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(297, 408);
+            this.groupBox1.Size = new System.Drawing.Size(297, 414);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "教师信息";
